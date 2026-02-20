@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contacto</h1>
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="adopcion.html">Adopción</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+
+<div class="contenedor contacto">
+
+    <!-- Cuadro Información -->
+    <div class="info">
+        <h3>Contacta con nosotros</h3>
+        <p>Rellena el formulario para iniciar el proceso de adopción o bien de voluntariado en nuestro centro de acogida.</p>
+    </div>
+
+    <!-- Cuadro Formulario -->
+    <div class="formulario">
+        <form>
+
+        <input type="text" placeholder="Nombre completo" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <select required>
+            <option value="">Selecciona tipo de consulta</option>
+            <option>Adopción</option>
+            <option>Información</option>
+            <option>Voluntariado</option>
+        </select>
+        <p>¿Tienes experiencia con mascotas?</p>
+            <input type="radio" name="experiencia"> Sí
+            <input type="radio" name="experiencia"> No
+        <p>Tipo de mascota:</p>
+            <input type="checkbox"> Perro
+            <input type="checkbox"> Gato
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+</div>
+
+<!-- MAPA DE GOOGLE incrustado -->
+<iframe 
+    src="https://www.google.com/maps/embed?pb=!4v1771522176903!6m8!1m7!1sl67fS_NjJZIB5X28qcr9Cg!2m2!1d28.12809079864854!2d-15.44679412811172!3f62.507279514107886!4f9.286058605917049!5f0.7820865974627469"
+    width="1920" 
+    height="800" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+<footer>
+    <p>© 2025 Centro de Adopción</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background:#f8f9fa;
+}
+
+
+/* ----------- HEADER GENERAL ----------- */
+.header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    background:#ff6f61;
+    color:white;
+}
+
+/* Logo */
+.logo {
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img {
+    width:60px;
+}
+
+.logo h1 {
+    font-size:22px;
+}
+
+/* Menú */
+.menu a {
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.menu a:hover {
+    color:#d83b0b;
+}
+
+/* Redes */
+.redes img {
+    width:30px;
+    margin-left:10px;
+}
+
+.redes img:hover{
+    transform:scale(1.2);
+}
+
+
+/* ----------- CONTENEDOR GENERAL ----------- */
+.contenedor{
+    width:90%;
+    margin:50px auto;
+}
+
+
+/* ----------- ADOPCIÓN ----------- */
+.minicontenedor {
+    background:#ffffff;
+    border-radius:20px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+.minicontenedor:hover {
+    transform:translateY(-8px);
+}
+
+.minicontenedor img {
+    width:100%;
+    border-radius:15px;
+    margin-bottom:15px;
+}
+
+.minicontenedor h3 {
+    color:#ff6f61;
+}
+
+
+/* ----------- NOSOTROS ----------- */
+.nosotros {
+    display:flex;
+    gap:40px;
+    align-items:center;
+    background:#ffffff;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.nosotros img {
+    width:50%;
+    border-radius:20px;
+}
+
+.nosotros-texto {
+    width:50%;
+}
+
+.nosotros-texto h2 {
+    color:#ff6f61;
+    margin-bottom:15px;
+}
+
+
+/* ----------- CONTACTO ----------- */
+.contacto {
+    display:flex;
+    gap:40px;
+}
+
+/* Caja izquierda */
+.info {
+    flex:1;
+    background:#ff6f61;
+    color:white;
+    padding:30px;
+    border-radius:20px;
+}
+
+/* Caja derecha formulario */
+.formulario {
+    flex:1;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Campos */
+input, select, textarea {
+    width:100%;
+    padding:12px;
+    margin:12px 0;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+/* Botón */
+button {
+    background:#ff6f61;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover {
+    background:#d40909;
+}
+
+
+/* ----------- FOOTER GENERAL ----------- */
+footer {
+    margin-top:60px;
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+}

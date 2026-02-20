@@ -141,7 +141,7 @@ body {
 }
 
 /* Campos */
-input, select, textarea {
+input, select {
     width:100%;
     padding:12px;
     margin:12px 0;

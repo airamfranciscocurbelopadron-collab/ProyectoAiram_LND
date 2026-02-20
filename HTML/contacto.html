@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Contacto</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
 
@@ -38,12 +38,14 @@
             <option>Voluntariado</option>
         </select>
         <p>¿Tienes experiencia con mascotas?</p>
-            <input type="radio" name="experiencia"> Sí
-            <input type="radio" name="experiencia"> No
+            <input type="radio" name="experiencia" value="si">
+            <label for="si">Sí</label>
+            <input type="radio" name="experiencia" value="no">
+            <label for="no">No</label>
         <p>Tipo de mascota:</p>
             <input type="checkbox"> Perro
             <input type="checkbox"> Gato
-        <textarea placeholder="Mensaje"></textarea>
+        <input type="mensaje" placeholder="Mensaje">
         <button type="submit">Enviar</button>
 
         </form>
@@ -62,7 +64,11 @@
 </iframe>
 
 <footer>
-    <p>© 2025 Centro de Adopción</p>
+    <div class="menuinferior">
+        <img src="/IMG/LogoInstagram.png" alt="">
+        <img src="/IMG/LogoTikTok.png" alt="">
+        <img src="/IMG/LogoX.png" alt="">
+    </div>
 </footer>
 
 </body>

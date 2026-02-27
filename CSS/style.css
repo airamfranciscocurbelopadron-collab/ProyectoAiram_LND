@@ -211,6 +211,9 @@ nav ul li img {
     margin-bottom:15px;
 }
 
+.video {
+    text-align: center;
+}
 
 /* ----------- CONTACTO ----------- */
 .contacto {
@@ -260,6 +263,9 @@ button:hover {
     background:#d40909;
 }
 
+.ubicacion {
+    text-align: center;
+}
 
 /* ----------- FOOTER GENERAL ----------- */
 footer {

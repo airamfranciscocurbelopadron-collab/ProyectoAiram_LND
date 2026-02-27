@@ -20,22 +20,17 @@ body {
     color:white;
 }
 
-/* Logo */
-.logo {
-    display:flex;
-    align-items:center;
-    gap:15px;
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* ----------- distancia entre logo y titulo ----------- */
 }
 
-.logo img {
-    width:60px;
+.logotipo {
+    height: 50px;
 }
 
-.logo h1 {
-    font-size:22px;
-}
-
-/* Menú */
+/* ----------- MENÚ SUPERIOR ----------- */
 .menu a {
     color:rgb(0, 0, 0);
     text-decoration:none;
@@ -47,17 +42,6 @@ body {
 .menu a:hover {
     color:#d83b0b;
 }
-
-/* Redes */
-.redes img {
-    width:30px;
-    margin-left:10px;
-}
-
-.redes img:hover{
-    transform:scale(1.2);
-}
-
 
 /* ----------- CONTENEDOR GENERAL ----------- */
 .contenedor{
@@ -99,7 +83,7 @@ ul.carrusel li {
     text-align: center;
 }
 
-/* Imágenes */
+/* ----------- Imágenes ----------- */
 .carrusel img {
     width: 100%;
     height: 300px;
@@ -107,7 +91,7 @@ ul.carrusel li {
     border-radius: 10px;
 }
 
-/* Texto animal */
+/* ----------- Texto animal ----------- */
 .carrusel li p {
     position: absolute;
     bottom: 10px;
@@ -134,7 +118,7 @@ nav ul {
     padding: 10px;
 }
 
-/* Mini imágenes */
+/* ----------- Mini imágenes ----------- */
 nav ul li img {
     width: 80px;
     height: 60px;
@@ -142,7 +126,7 @@ nav ul li img {
     border-radius: 6px;
 }
 
-/* Nombre animal */
+/* ----------- Nombre animal ----------- */
 .carrusel li p {
     position: static;
     margin-top: 10px;
@@ -221,7 +205,7 @@ nav ul li img {
     gap:40px;
 }
 
-/* Caja izquierda */
+/* ----------- Caja izquierda ----------- */
 .info {
     flex:1;
     background:#ff6f61;
@@ -230,7 +214,7 @@ nav ul li img {
     border-radius:20px;
 }
 
-/* Caja derecha formulario */
+/* ----------- Caja derecha formulario ----------- */
 .formulario {
     flex:1;
     background:white;
@@ -239,7 +223,7 @@ nav ul li img {
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* Campos */
+/* ----------- Campos ----------- */
 input, select {
     width:100%;
     padding:12px;
@@ -248,7 +232,7 @@ input, select {
     border:1px solid #ccc;
 }
 
-/* Botón */
+/* ----------- Botón ----------- */
 button {
     background:#ff6f61;
     color:white;

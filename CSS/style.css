@@ -66,25 +66,121 @@ body {
 }
 
 
+/* -------- CARRUSEL -------- */
+ul.carrusel {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    margin: 30px auto;
+    padding: 0;
+    list-style: none;
+}
+
+ul.carrusel li:first-child {
+    opacity: 1;
+    visibility: visible;
+}
+
+ul.carrusel li:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* -------- Diapositivas -------- */
+
+ul.carrusel li {
+    width: 800px;
+    height: 450px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+/* Imágenes */
+.carrusel img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Texto animal */
+.carrusel li p {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+/* -------- Miniaturas -------- */
+nav {
+    width: 800px;
+    margin: 10px auto;
+    position: static;
+    background: #f1f2f3;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 10px;
+}
+
+/* Mini imágenes */
+nav ul li img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* Nombre animal */
+.carrusel li p {
+    position: static;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
 /* ----------- ADOPCIÓN ----------- */
+/* ----------- Contenedor general ----------- */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* ----------- Tarjetas animales  -----------*/
 .minicontenedor {
     background:#ffffff;
     border-radius:20px;
-    padding:20px;
+    padding:25px;
     text-align:center;
     box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    width:260px;
 }
 
-.minicontenedor:hover {
-    transform:translateY(-8px);
-}
-
+/* ----------- Imágenes ----------- */
 .minicontenedor img {
     width:100%;
+    height:160px;
+    object-fit:contain;
     border-radius:15px;
     margin-bottom:15px;
 }
 
+/* ----------- Nombre animal ----------- */
 .minicontenedor h3 {
     color:#ff6f61;
 }
@@ -172,4 +268,8 @@ footer {
     color:white;
     text-align:center;
     padding:20px;
+}
+
+footer img {
+    width: 2%;
 }

@@ -27,7 +27,7 @@ body {
 }
 
 .logotipo {
-    height: 50px;
+    height: 100px;
 }
 
 /* ----------- MENÚ SUPERIOR ----------- */
@@ -262,4 +262,23 @@ footer {
 
 footer img {
     width: 2%;
+}
+
+
+/* ----------- MEDIA QUERIES GENERAL hecha con --> https://youtu.be/n9yI6fjkrfE?si=_u1X0iH57ixwwrgy ----------- */
+/* ----------- Sobremesa ----------- */
+@media (max-width: 1440px) {
+
+}
+
+
+/* ----------- Tablet ----------- */
+@media (max-width: 1024px) {
+    
+}
+
+
+/* ----------- Móvil ----------- */
+@media (max-width: 320px) {
+    
 }

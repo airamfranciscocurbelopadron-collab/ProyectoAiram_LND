@@ -1,0 +1,1 @@
+document.getElementById("btnEnviar").addEventListener("click", cambiarTexto);

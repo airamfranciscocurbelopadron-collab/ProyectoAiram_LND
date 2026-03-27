@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Huella Solidaria</title>
+        <link>http://127.0.0.1:5500/HTML/index.html</link>
+        <description>Página para adoptar a un amigo</description>
+
+        <item>
+            <title>Adopción de animales</title>
+            <link>http://127.0.0.1:5500/HTML/adopcion.html</link>
+            <description>Nuevos animales que llegan al refugio</description>
+        </item>
+
+        <item>
+            <title>Nuevo local</title>
+            <link>http://127.0.0.1:5500/HTML/contacto.html</link>
+            <description>Se cambia de local a uno más grande</description>
+        </item>
+    </channel>
+</rss>
